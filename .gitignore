@@ -1,0 +1,9 @@
+# editor configuration files
+.idea/
+
+
+# test resources folder
+resources/
+
+# Node core modules
+node_modules/
