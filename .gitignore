@@ -4,6 +4,7 @@
 
 # test resources folder
 resources/
+out/
 
 # Node core modules
 node_modules/

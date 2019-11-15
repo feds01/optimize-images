@@ -1,7 +1,7 @@
 {
   "name": "optimize-image",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI tool to optimise JPEG format images in batch.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "^3.0.0",
+    "imagemin": "^7.0.0",
+    "imagemin-mozjpeg": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
