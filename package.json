@@ -6,13 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "optimise-image": "./index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",
     "imagemin": "^7.0.0",
-    "imagemin-mozjpeg": "^8.0.0"
+    "imagemin-mozjpeg": "^8.0.0",
+    "commander": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
