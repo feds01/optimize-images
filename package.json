@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",
-    "imagemin": "^7.0.0",
-    "imagemin-mozjpeg": "^8.0.0"
+    "commander": "latest",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
