@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const prompt = require('prompt');
 const program = require('commander');
 const chalk = require('chalk');
