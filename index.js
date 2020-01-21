@@ -68,6 +68,9 @@ prompt.get([{
       if (program.verbose) console.log(`total space saved from optimisation ${chalk.green.bold(savedSpace)}Mb.`);
 
       console.log('optimised image files were written to ' + program.output);
+    }).catch((err) => {
+      console.log('err: ', err);
+      process.exit(-1);
     });
   }
 });

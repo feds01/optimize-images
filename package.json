@@ -4,6 +4,7 @@
   "description": "CLI tool to optimise JPEG format images in batch.",
   "main": "index.js",
   "scripts": {
+    "build": "pkg -t node10-win .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "imagemin-mozjpeg": "^8.0.0",
     "prompt": "^1.0.0"
   },
+  "bin": "index.js",
   "devDependencies": {
     "eslint": "^6.6.0",
     "eslint-config-google": "^0.14.0"
