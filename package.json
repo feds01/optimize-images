@@ -1,6 +1,6 @@
 {
   "name": "optimize-image",
-  "version": "1.0.2-rc0",
+  "version": "1.0.2",
   "description": "CLI tool to optimise JPEG format images in batch.",
   "main": "index.js",
   "scripts": {
