@@ -1,13 +1,21 @@
 {
   "name": "optimize-image",
   "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feds01/optmize-image"
+  },
+  "bugs": {
+    "email": "alexander.fedotov.uk@gmail.com",
+    "url": "https://github.com/feds01/optmize-image/issues"
+  },
   "description": "CLI tool to optimise JPEG format images in batch.",
   "main": "index.js",
   "scripts": {
     "build": "pkg -t node10 . --output build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["optimise", "images", "jpeg", "cli"],
   "author": "Alexander. E. Fedotov",
   "license": "ISC",
   "dependencies": {
