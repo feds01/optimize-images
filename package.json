@@ -19,7 +19,7 @@
   "author": "Alexander. E. Fedotov",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "commander": "latest",
     "imagemin": "^7.0.1",
     "imagemin-mozjpeg": "^8.0.0",
